@@ -1,0 +1,40 @@
+body{
+  font: 14px "Century Gothic", Futura, sans-serif;
+  margin: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+ol, ul {
+  padding: 30px;
+}
+
+.jogo{
+  display: flex;
+  flex-direction: row;
+}
+
+.quadroJogo{
+  margin-bottom: 10px;
+}
+
+.infoJogo{
+  margin-left: 20px;
+}
+
+.btnReiniciarJogo{
+  margin-top: 15px;
+  padding: 8px 15px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.btnReiniciarJogo:hover{
+  background-color: #45A049;
+}
